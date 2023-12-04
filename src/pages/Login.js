@@ -68,8 +68,11 @@ const Login = () => {
             </div>
 
             <div className="card-footer">
-                <button type="submit" className="btn btn-primary">Login</button>  Need an account?
+                <button type="submit" className="btn btn-primary">Login</button>
+
+                <span> Need an account? </span> 
                 <a className="btn btn-danger" href="/register">Register</a>
+
             </div>
 
         </div>
